@@ -11,5 +11,9 @@ def index():
     return Response('哈哈哈哈')
 
 
+@app.route('/add')
+def add():
+    return Response('.......')
+
 if __name__ == '__main__':
     app.run()
